@@ -7,7 +7,7 @@ phi = 10000 # equipment cost coefficient (10,000 CNY/UNIT^2)
 epsilon = 100000 # price of the charger
 gamma = 0.1 # maintenance factor
 lam = 1.79 # cost per km
-n_char = 5 # number of plugs in the station (can change on the way), initializing the varibles according to the document
+n_char = 2 # number of plugs in the station (can change on the way), initializing the varibles according to the document
 deg_to_km = 100 # we take it like 1 degree is 100km
 
 def calculate_fitness(stations, demand_points):
