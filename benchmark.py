@@ -76,7 +76,9 @@ def F15(x): # Kowalik
 # ... F16, F17, F18 are variations of Six-Hump Camel and Goldstein-Price
 # We can add them if strictly needed, but F1-F15 covers the bulk.
 def F16(x): return (x[1] - (5.1 / (4 * np.pi**2)) * x[0]**2 + (5 / np.pi) * x[0] - 6)**2 + 10 * (1 - 1 / (8 * np.pi)) * np.cos(x[0]) + 10
+
 def F17(x): return (1 + (x[0] + x[1] + 1)**2 * (19 - 14*x[0] + 3*x[0]**2 - 14*x[1] + 6*x[0]*x[1] + 3*x[1]**2)) * (30 + (2*x[0] - 3*x[1])**2 * (18 - 32*x[0] + 12*x[0]**2 + 48*x[1] - 36*x[0]*x[1] + 27*x[1]**2))
+
 def F18(x): return F16(x) # Placeholder
 
 def get_function_details(func_name):
