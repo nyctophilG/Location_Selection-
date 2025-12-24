@@ -39,7 +39,7 @@ def calculate_fitness(stations, demand_points):
     diff = demand_points[:, np.newaxis, :] - stations[np.newaxis, :, :]
     dists_deg = np.sqrt(np.sum(diff**2, axis=2))
     min_dists = np.min(dists_deg * deg_to_km, axis=1)
-    F_Time = 365 * np.sum(min_dists) * lam
+    F_Time = np.sum(min_dists) * lam
 
     # Penalty Check
     violation = 0
