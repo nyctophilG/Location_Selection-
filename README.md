@@ -49,11 +49,11 @@ Real-World Case Study (Shenzhen)
 
 Our IWOA significantly outperformed the Standard WOA in the final simulation (100 iterations):
 
-Metric,Standard WOA,Improved WOA (Ours)
-Total Cost,"832,343 CNY","735,996 CNY"
-Penalty Cost,"7,500 CNY (Invalid)",0.00 CNY (Valid)
-Construction Cost,"823,557 CNY","734,742 CNY"
-Travel Cost,"1,285 CNY","1,254 CNY"
+    Metric,Standard WOA,Improved WOA (Ours)
+    Total Cost,"832,343 CNY","735,996 CNY"
+    Penalty Cost,"7,500 CNY (Invalid)",0.00 CNY (Valid)
+    Construction Cost,"823,557 CNY","734,742 CNY"
+    Travel Cost,"1,285 CNY","1,254 CNY"
 
 Key Achievement: We saved approx. 100,000 CNY/year (~12%) compared to the standard algorithm and found a zero-penalty solution.
 📂 File Structure
