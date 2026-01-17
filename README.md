@@ -3,9 +3,7 @@ Optimization of EV Charging Station Locations using Improved Whale Optimization 
 
 Course: ENS001 - Application Development for Optimization
 
-Team: Group 6
-
-Semester: Spring 2024
+Semester: Spring 2025
 📌 Project Overview
 
 This project addresses the facility location problem for Electric Vehicle (EV) Charging Stations in Shenzhen, China. The goal is to determine the optimal coordinates for 12 charging stations to serve 130 demand points while minimizing the Total Annual System Cost.
